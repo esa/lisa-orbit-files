@@ -7,7 +7,7 @@ A repository to share the official ESA LISA science orbit files with the LISA co
 
 ## Acronyms:
 * CReMA (Consolidated Report on Mission Analysis)
-* MIDA (Mean Initial Displacement angle): The displacement angle of the LISA constellation from the Mean Earth at the beginning of science phase. Positive values indicate an Earth-leading configuration, negative values and Earth-trailing configuration.
+* MIDA (Mean Initial Displacement angle): The displacement angle of the LISA constellation from the Mean Earth at the beginning of science phase. Positive values indicate an Earth-leading configuration, negative values an Earth-trailing configuration.
 * cw/ccw (clockwise/counter-clockwise): Indicates the apparent rotation of the constellation as seen from the Sun.
 
 ## Reference
