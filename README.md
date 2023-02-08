@@ -1,5 +1,5 @@
 # lisa-orbit-files
-A repository to share the official ESA LISA science orbit files with the LISA consortium.
+A repository to share the official ESA LISA science orbit files.
 
 ##  Repository structure
 * The LISA science orbits are stored as OEM (Orbit Ephemeris Message) files that can be read, for instance, using [this](https://pypi.org/project/oem/) Python package.
