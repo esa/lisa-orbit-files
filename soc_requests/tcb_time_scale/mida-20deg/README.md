@@ -1,10 +1,8 @@
 ### OEM Files in the TCB Time Scale
 
-The following Orbit Ephemeris Message (OEM) files contain spacecraft state vectors expressed in the TCB (Barycentric Coordinate Time) time scale.  
-They differ only in the sampling strategy applied to the underlying numerical integration.
+The following Orbit Ephemeris Message (OEM) files contain spacecraft state vectors expressed in the TCB (Barycentric Coordinate Time) time scale. They differ only in the sampling strategy applied to the underlying numerical integration.
 
-The dynamical model follows **CReMA 2.0** in all aspects except for the Earth’s gravity field, which is represented using a **spherical-harmonic expansion up to degree and order 3 (3×3)** instead of the point‑mass model adopted in CReMA.
-The following gravitational bodies are included in the force model:
+The dynamical model follows **CReMA 2.0** in all aspects except for the Earth’s gravity field, which is represented using a **spherical-harmonic expansion up to degree and order 3 (3×3)** instead of the point‑mass model adopted in CReMA. The following gravitational bodies are included in the force model:
 
 - **Earth** (3×3 gravity field)
 - **Sun**
@@ -17,13 +15,12 @@ The following gravitational bodies are included in the force model:
 - **Uranus Barycenter**
 - **Neptune Barycenter**
 
-
 ---
 
 #### `*_lisa[1|2|3].oem`
 Default LISA orbit files with an effective sampling interval of approximately **3 days**.  
 These files are generated using:
-- a numerical integration performed on a coarser internal time grid, and  
+- a numerical integration performed on a coarser internal time grid (absolute and relative integration tolerances = 1e-9), and  
 - **4× oversampling** using a dense Runge–Kutta interpolator to provide intermediate states.
 
 ---
