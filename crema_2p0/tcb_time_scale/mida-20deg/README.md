@@ -16,14 +16,6 @@ The following gravitational bodies are included in the force model:
 - **Neptune Barycenter**
 ---
 
-#### `*_lisa[1|2|3].oem`
-Default LISA orbit files with an effective sampling interval of approximately **3 days**.  
-These files are generated using:
-- a numerical integration performed on a coarser internal time grid (absolute and relative integration tolerances = 1e-9), and  
-- **4× oversampling** using a dense Runge–Kutta interpolator to provide intermediate states.
-
----
-
 #### `*_lisa[1|2|3]_no_ovrs.oem`
 Orbit files **without oversampling**.  
 The ephemeris points correspond **exactly to the integration grid** used by the numerical propagator.  
