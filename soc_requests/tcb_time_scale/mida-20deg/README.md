@@ -15,14 +15,11 @@ The dynamical model follows **CReMA 2.0** in all aspects except for the Earth’
 - **Uranus Barycenter**
 - **Neptune Barycenter**
 - **Deterministic spacecraft self‑gravity**, modeled as a linear acceleration variation between **−2 nm/s²** and **+2 nm/s²**
----
 
-#### `*_lisa[1|2|3].oem`
-Default LISA orbit files with an effective sampling interval of approximately **3 days**.  
-These files are generated using:
-- a numerical integration performed on a coarser internal time grid (absolute and relative integration tolerances = 1e-9), and  
-- **4× oversampling** using a dense Runge–Kutta interpolator to provide intermediate states.
+Integration tolerances:
 
+- **Relative tolerance**: 1e-15
+- **Absolute tolerance**: 1e-15
 ---
 
 #### `*_lisa[1|2|3]_no_ovrs.oem`
