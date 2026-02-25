@@ -14,7 +14,7 @@ The dynamical model follows **CReMA 2.0** in all aspects except for the Earth’
 - **Saturn Barycenter**
 - **Uranus Barycenter**
 - **Neptune Barycenter**
-
+- **Deterministic spacecraft self‑gravity**, modeled as a linear acceleration variation between **−2 nm/s²** and **+2 nm/s²**
 ---
 
 #### `*_lisa[1|2|3].oem`

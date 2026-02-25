@@ -14,6 +14,7 @@ The following gravitational bodies are included in the force model:
 - **Saturn Barycenter**
 - **Uranus Barycenter**
 - **Neptune Barycenter**
+- **Deterministic spacecraft self‑gravity**, modeled as a linear acceleration variation between **−2 nm/s²** and **+2 nm/s²**
 ---
 
 #### `*_lisa[1|2|3]_no_ovrs.oem`
