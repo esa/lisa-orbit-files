@@ -8,7 +8,7 @@ The following dispersion sources are included, consistent with **CReMA 2.0, Sect
 ---
 
 ### • Navigation dispersion from the cartwheel insertion manoeuvre sequence  
-This includes uncertainties introduced during the full insertion sequence, comprising:
+This includes uncertainties introduced during the full insertion sequence, including:
 - Xenon venting  
 - The final MPS manoeuvre  
 
@@ -19,8 +19,6 @@ These dispersions reflect the expected navigation errors accumulated during the 
 ### • Stochastic self‑gravity–induced acceleration (Requirement **R‑MIS‑2120**)  
 A stochastic propulsive acceleration is added to represent the self‑gravity‑induced effects during science operations.  
 Because the self‑gravity field will not be perfectly known at the moment of cartwheel orbit insertion, a residual unmodelled acceleration is always expected throughout the science orbit.
-
-The distribution of this acceleration is defined in **Table 2 A‑0160**.
 
 ---
 
@@ -44,4 +42,3 @@ This corresponds to constant acceleration levels of up to:
 Each component follows a uniform random distribution within these bounds.
 
 ---
-``
