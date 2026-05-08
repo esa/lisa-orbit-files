@@ -1,7 +1,7 @@
 # README
 
 This directory contains *dispersed sample orbit files* derived from the nominal orbit files in the parent directory.  
-Only a limited set of **30 samples** is provided here, corresponding to the **worst‑case arm‑length rate scenarios**.
+Only a limited set of **30 samples** is provided here, corresponding to the **worst‑case absolute arm‑length rate scenarios**.
 
 The following dispersion sources are included, consistent with **CReMA 2.0, Section 6.4**:
 
