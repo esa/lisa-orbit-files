@@ -22,18 +22,20 @@ Integration tolerances:
 - **Absolute tolerance**: 1e-15
 ---
 
+#### `*_lisa[1|2|3]_step_1hour.oem`
+Orbit files generated fixed **uniform 1-hour step size**. This set of files is recommended to be used for data processing.
+
+---
+
 #### `*_nonsph_lisa[1|2|3]_no_ovrs.oem`
 Orbit files **without oversampling**.  
 The ephemeris points correspond **exactly to the integration grid** used by the numerical propagator.  
-No intermediate points are generated.
+No intermediate points are generated. Includes Earth 3x3 gravity field.
 
 ---
 
 #### `*_nonsph_lisa[1|2|3]_step_1hour.oem`
 Orbit files generated through **dense Runge–Kutta interpolation** on a **uniform 1‑hour output time step**.  
 The propagation itself may still use adaptive internal step sizes; only the output cadence is fixed.
+Includes Earth 3x3 gravity field.
 
----
-
-#### `*_lisa[1|2|3]_step_1hour.oem`
-Orbit files generated fixed **uniform 1-hour step size**
