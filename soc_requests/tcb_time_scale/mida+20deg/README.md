@@ -23,4 +23,5 @@ Integration tolerances:
 ---
 
 #### `*_lisa[1|2|3]_step_1hour.oem`
-Orbit files generated fixed **uniform 1-hour step size**
+Orbit files generated fixed **uniform 1-hour step size**.
+This set of files is recommended to be used for data processing.
